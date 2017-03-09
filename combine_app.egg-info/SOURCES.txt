@@ -5,8 +5,10 @@ requirements.txt
 setup.py
 combine_app/__init__.py
 combine_app/hooks.py
+combine_app/install.py
 combine_app/modules.txt
 combine_app/patches.txt
+combine_app/sales_invoice_list.js
 combine_app.egg-info/PKG-INFO
 combine_app.egg-info/SOURCES.txt
 combine_app.egg-info/dependency_links.txt
@@ -14,6 +16,15 @@ combine_app.egg-info/not-zip-safe
 combine_app.egg-info/requires.txt
 combine_app.egg-info/top_level.txt
 combine_app/combine_app/__init__.py
+combine_app/combine_app/doctype/__init__.py
+combine_app/combine_app/doctype/combine_doc/__init__.py
+combine_app/combine_app/doctype/combine_doc/combine_doc.js
+combine_app/combine_app/doctype/combine_doc/combine_doc.json
+combine_app/combine_app/doctype/combine_doc/combine_doc.py
+combine_app/combine_app/doctype/combine_doc/test_combine_doc.py
+combine_app/combine_app/doctype/combine_doc_detail/__init__.py
+combine_app/combine_app/doctype/combine_doc_detail/combine_doc_detail.json
+combine_app/combine_app/doctype/combine_doc_detail/combine_doc_detail.py
 combine_app/config/__init__.py
 combine_app/config/desktop.py
 combine_app/config/docs.py
