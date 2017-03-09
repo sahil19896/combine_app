@@ -46,7 +46,7 @@ app_license = "MIT"
 # ------------
 
 # before_install = "combine_app.install.before_install"
- after_install = "combine_app.install.after_install"
+after_install = "combine_app.install.after_install"
 
 # Desk Notifications
 # ------------------
@@ -70,7 +70,7 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
- doc_events = {
+doc_events = {
 # 	"*": {
 # 		"on_update": "method",
 # 		"on_cancel": "method",
