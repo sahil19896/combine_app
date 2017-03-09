@@ -10,6 +10,6 @@ def after_install():
 	frappe.db.set_default('desktop:home_page', '')
 	frappe.db.commit()
 
-	print "**************after install*******************"
+	print "**************after install by sahil*****************"
 
-	system("cp " + path.join(APPS, "combine_app/sales_invoice_list.js") + " " +  path.join(APPS, "erpnext/erpnext/account/doctype/sales_invoice"))
+	os.system( "cp " + path.join(APPS, "combine_app/combine_app/sales_invoice_list.js") + " " +  path.join(APPS, "erpnext/erpnext/accounts/doctype/sales_invoice/"))
