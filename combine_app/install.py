@@ -1,6 +1,7 @@
 from __future__ import unicode_literals
 from os import system, getcwd, environ, path
 import frappe
+import os
 
 USER = "/home/" + environ['USER']
 FBENCH = path.join(USER, "frappe-bench")
