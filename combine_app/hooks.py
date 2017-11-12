@@ -7,7 +7,7 @@ app_title = "Combine App"
 app_publisher = "korecent"
 app_description = "combine"
 app_icon = "octicon octicon-file-directory"
-app_color = "grey"
+app_color = "blue"
 app_email = "rohit@korecent.com"
 app_license = "MIT"
 
