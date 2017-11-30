@@ -13,4 +13,4 @@ def after_install():
 
 	print "**************after install by sahil*****************"
 
-	os.system( "cp " + path.join(APPS, "combine_app/combine_app/sales_invoice_list.js") + " " +  path.join(APPS, "erpnext/erpnext/accounts/doctype/sales_invoice/"))
+	#os.system( "cp " + path.join(APPS, "combine_app/combine_app/sales_invoice_list.js") + " " +  path.join(APPS, "erpnext/erpnext/accounts/doctype/sales_invoice/"))
